@@ -110,37 +110,37 @@ GO
 INSERT INTO Ubigeo
 (CODUBI, DEPUBI, PROVUBI, DISTUBI)
 VALUES
-('140401', 'Lima', 'CaÒete', 'San Vicente de CaÒete'),
-('140402', 'Lima', 'CaÒete', 'Calango'),
-('140403', 'Lima', 'CaÒete', 'Cerro Azul'),
-('140404', 'Lima', 'CaÒete', 'Coayllo'),
-('140405', 'Lima', 'CaÒete', 'Chilca'),
-('140406', 'Lima', 'CaÒete', 'Imperial'),
-('140407', 'Lima', 'CaÒete', 'Lunahuan·'),
-('140408', 'Lima', 'CaÒete', 'Mala'),
-('140409', 'Lima', 'CaÒete', 'Nuevo Imperial'),
-('140410', 'Lima', 'CaÒete', 'Pacar·n'),
-('140411', 'Lima', 'CaÒete', 'Quilman·'),
-('140412', 'Lima', 'CaÒete', 'San Antonio'),
-('140413', 'Lima', 'CaÒete', 'San Luis'),
-('140414', 'Lima', 'CaÒete', 'Santa Cruz de Flores'),
-('140415', 'Lima', 'CaÒete', 'Z˙Òiga'),
-('140416', 'Lima', 'CaÒete', 'Asia')
+('140401', 'Lima', 'Ca√±ete', 'San Vicente de Ca√±ete'),
+('140402', 'Lima', 'Ca√±ete', 'Calango'),
+('140403', 'Lima', 'Ca√±ete', 'Cerro Azul'),
+('140404', 'Lima', 'Ca√±ete', 'Coayllo'),
+('140405', 'Lima', 'Ca√±ete', 'Chilca'),
+('140406', 'Lima', 'Ca√±ete', 'Imperial'),
+('140407', 'Lima', 'Ca√±ete', 'Lunahuan√°'),
+('140408', 'Lima', 'Ca√±ete', 'Mala'),
+('140409', 'Lima', 'Ca√±ete', 'Nuevo Imperial'),
+('140410', 'Lima', 'Ca√±ete', 'Pacar√°n'),
+('140411', 'Lima', 'Ca√±ete', 'Quilman√°'),
+('140412', 'Lima', 'Ca√±ete', 'San Antonio'),
+('140413', 'Lima', 'Ca√±ete', 'San Luis'),
+('140414', 'Lima', 'Ca√±ete', 'Santa Cruz de Flores'),
+('140415', 'Lima', 'Ca√±ete', 'Z√∫√±iga'),
+('140416', 'Lima', 'Ca√±ete', 'Asia')
 GO
 
 --Insertar registros en la tabla CLIENTE
 INSERT INTO Cliente
 (CODCLI, DNICLI, NOMCLI, APECLI, CELCLI, EMACLI, ESTACLI, CODUBI)
 VALUES
-('CL0001','45781233','Alicia','GarcÌa Campos','929185236','agarcia@gmail.com','I','140409'),
-('CL0002','15487922','Juana','¡vila Chumpitaz','923568741','javila@gmail.com','A','140402'),
-('CL0003','15253588','Oscar','Coronado V·squez','932615478','ocoronado@gmail.com','A','140403'),
+('CL0001','45781233','Alicia','Garc√≠a Campos','929185236','agarcia@gmail.com','I','140409'),
+('CL0002','15487922','Juana','√Åvila Chumpitaz','923568741','javila@gmail.com','A','140402'),
+('CL0003','15253588','Oscar','Coronado V√°squez','932615478','ocoronado@gmail.com','A','140403'),
 ('CL0004','85213566','Luis','Barrios Palomino','932817645','lbarrios@outlook.com','I','140409'),
-('CL0005','15482566','MarÌa','Tarazona Mendoza','978400123','mtarazona@outlook.com','A','140407'),
-('CL0006','15428211','Pedro','S·nchez D·vila','941533268','psanchez@yahoo.com','A','140402'),
+('CL0005','15482566','Mar√≠a','Tarazona Mendoza','978400123','mtarazona@outlook.com','A','140407'),
+('CL0006','15428211','Pedro','S√°nchez D√°vila','941533268','psanchez@yahoo.com','A','140402'),
 ('CL0007','47129533','Aldo','Torres Zavala','958866221','atorres@yahoo.com','I','140405'),
 ('CL0008','48171533','Fiorella','Monteza Alzamora','992255441','fmonteza@gmail.com','A','140408'),
-('CL0009','15429866','Gloria','Linares RodrÌguez','954415950','glinares@hotmail.com','A','140403'),
+('CL0009','15429866','Gloria','Linares Rodr√≠guez','954415950','glinares@hotmail.com','A','140403'),
 ('CL0010','85251592','Esperanza','Stark Parker','901133258','estark@yahoo.com','I','140405')
 Go
 
@@ -148,24 +148,24 @@ Go
 INSERT INTO Producto
 (CODPROD, NOMPROD, PREPROD,STOPROD,CATPROD)
 VALUES 
-('P001','MONGE MAXI PUPPY & JUNIOR CHICKEN 12 KG','66.50','100','A'),
-('P002','MONGE MINI PUPPY & JUNIOR CHICKEN 3 KG','20.00','100','A'),
+('P001','MONGE MAXI PUPPY & JUNIOR CHICKEN ','66.50','100','A'),
+('P002','MONGE MINI PUPPY & JUNIOR CHICKEN ','20.00','100','A'),
 ('P003','MONGE MEDIUM PUPPY & JUNIOR CHICKEN','24.00','100','A'),
-('P004','ROYAL CANIN MAXI ADULTO 15 KG','67.00','100','C'),
-('P005','BRIT CARE ADULT LARGE BREED SALMON & POTATO 12 KG','58.50','100','C'),
+('P004','ROYAL CANIN MAXI ADULTO','67.00','100','C'),
+('P005','BRIT CARE ADULT LARGE BREED SALMON & POTATO ','58.50','100','C'),
 ('P006','BRIT CARE ADULT LARGE BREED LAMB & RICE','52.00','100','C'),
-('P007','OPTIMUM SOBRE ADULTO RAZAS PEQUE—AS POLLO 100 G','7.00','100','E'),
-('P008','PRO PLAN ADULTO CARNE POUCH 100 GR','2.50','100','A'),
-('P009','ROYAL CANIN MEDIUM PUPPY POUCH 140 GR ','7.00','100','C'),
+('P007','OPTIMUM SOBRE ADULTO RAZAS PEQUE√ëAS POLLO ','7.00','100','E'),
+('P008','PRO PLAN ADULTO CARNE POUCH ','2.50','100','A'),
+('P009','ROYAL CANIN MEDIUM PUPPY POUCH','7.00','100','C'),
 ('P010','ZEUS COLLAR SEMIFIJO ROJO','5.00','100','A'),
 ('P011','ZEUS ARNES FIGURA A CORAL','6.50','100','A'),
-('P012','ZEEDOG NEOPRO BUBBLEGUM H-HARNESS','20.00','100','A'),
+('P012','ZEEDOG NEOPRO BUBBLEGUM HHARNESS','20.00','100','A'),
 ('P013','AFP PLATO DE ENFRIAMIENTO','12.00','100','A'),
-('P014','ZEEDOG ZEE.MAT CORAL','12.00','100','E'),
-('P015','ZEEDOG ZEE.MAT LIME','11.50','100','A'),
-('P016','ADIESTRADOR DE CACHORROS 500ML','14.00','100','C'),
-('P017','AFP DOG SPARKLE SET','14,00.','100','A'),
-('P018','BALSAMO AVENA NATURAL 320 CC','8.00','100','C');
+('P014','ZEEDOG ZEEMAT CORAL','12.00','100','E'),
+('P015','ZEEDOG ZEEMAT LIME','11.50','100','A'),
+('P016','ADIESTRADOR DE CACHORROS ','14.00','100','C'),
+('P017','AFP DOG SPARKLE SET','14.00','100','A'),
+('P018','BALSAMO AVENA NATURAL','8.00','100','C')
 GO
 
 --Insertar registros en la tabla TRABAJADOR
